@@ -5,7 +5,7 @@ Noderr represent node.js implementation handle processing using `multiple instan
 ## Cluster mode with `Round robin scheduling`
 ```mermaid
 flowchart LR
-    A[Client] -->|request| B{Master(Round robin scheduling)}
+    A[Client] -->|request| B{Master Round robin scheduling}
     B --> C[Service instance]
     B --> D[Service instance]
     B --> E[Service instance]
