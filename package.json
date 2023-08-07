@@ -1,0 +1,19 @@
+{
+  "name": "noderr",
+  "version": "1.0.0",
+  "repository": "git@github.com:Almazatun/noderr.git",
+  "author": "Almazatun <atunstyle@gmail.com>",
+  "scripts": {
+    "build:common": "npm run --workspace @noderr/common build",
+    "build:cluster": "npm run --workspace @noderr/cluster",
+    "build:workers": "npm run --workspace @noderr/workers",
+    "build:all": "npm --workspaces run build",
+    "install:all": "npm i --workspaces"
+  },
+  "workspaces": [
+    "common",
+    "cluster",
+    "workers"
+  ],
+  "license":"UNLICENSED"
+}

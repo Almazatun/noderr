@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  service:
+    container_name: sv_cluster
+    build:
+      context: .
+      dockerfile: ./cluster/Dockerfile
+    ports:
+      - "3000:3000"
+    cpus: 5

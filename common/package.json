@@ -1,0 +1,16 @@
+{
+  "name": "@noderr/common",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "author": "Almaz Pasonov",
+  "devDependencies": {
+    "@types/node":"^20.4.8",
+    "typescript": "5.1.6"
+  }
+}
